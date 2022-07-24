@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <H1>Submitted Info</H1>
+    <p>Name: {{session['Your_name']}}</p>
+    <p>Dojo Location: {{session['Location']}}</p>
+    <p>Favorite Language: {{session['Languages']}}</p>
+    <p>Comment: {{session['Comment']}}</p>
+    <a href="http://127.0.0.1:5000/"><input type="button"  value="Go Back"></a>
+  </div>
+</body>
+</html>
